@@ -1,2 +1,2 @@
 # yet-another-dude-app
-Django2 Test App \m/
+Django2 Test App :rooster: :notes:
