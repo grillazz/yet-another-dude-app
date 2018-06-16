@@ -1,2 +1,2 @@
-# yet-another-dude-app
-Django2 Test App :rooster: :notes:
+# yet-another-dude-app :rooster: :notes:
+Django2 Test App 
