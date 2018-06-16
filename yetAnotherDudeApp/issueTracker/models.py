@@ -38,3 +38,11 @@ class Issue(models.Model):
         verbose_name = 'issue'
         verbose_name_plural = 'issues'
         ordering = ('status', 'priority', 'submitted_date', 'title')
+
+
+class IssueSummary(Issue):
+    class Meta:
+        proxy = True
+        verbose_name = 'Issue Summary'
+        verbose_name_plural = 'Issue Summary'
+
