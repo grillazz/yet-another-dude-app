@@ -25,19 +25,19 @@ SECRET_KEY = 'g-3=5p56d31o%ix5e%&5wc(a-cxue@+4x4+b)64k0l0)6jxry)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
 
 INSTALLED_APPS = [
-    'issueTracker.apps.IssuetrackerConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'issueTracker.apps.IssuetrackerConfig',
 ]
 
 MIDDLEWARE = [
