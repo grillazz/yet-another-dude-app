@@ -1,2 +1,72 @@
-[31;1mCommandError: No installed app with label 'issuetracker'.
-[0m
+[
+  {
+    "model": "issueTracker.status",
+    "pk": 1,
+    "fields": {
+      "code": "Open"
+    }
+  },
+  {
+    "model": "issueTracker.status",
+    "pk": 2,
+    "fields": {
+      "code": "Working"
+    }
+  },
+  {
+    "model": "issueTracker.status",
+    "pk": 3,
+    "fields": {
+      "code": "Closed"
+    }
+  },
+  {
+    "model": "issueTracker.priority",
+    "pk": 1,
+    "fields": {
+      "code": "Now"
+    }
+  },
+  {
+    "model": "issueTracker.priority",
+    "pk": 2,
+    "fields": {
+      "code": "Soon"
+    }
+  },
+  {
+    "model": "issueTracker.priority",
+    "pk": 3,
+    "fields": {
+      "code": "Someday"
+    }
+  },
+  {
+    "model": "issueTracker.issue",
+    "pk": 1,
+    "fields": {
+      "title": "Broken laptop",
+      "submitted_date": "2018-06-16",
+      "modified_date": "2018-06-16",
+      "submitter": 1,
+      "assigned_to": 1,
+      "description": "N/A",
+      "status": 1,
+      "priority": 1
+    }
+  },
+  {
+    "model": "issueTracker.issue",
+    "pk": 2,
+    "fields": {
+      "title": "Can't login to my mailbox",
+      "submitted_date": "2018-06-16",
+      "modified_date": "2018-06-16",
+      "submitter": 1,
+      "assigned_to": 1,
+      "description": "N/A",
+      "status": 1,
+      "priority": 2
+    }
+  }
+]
